@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reporte de Pruebas Automatizadas - CRUD PHP</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f9f9f9; }
+        h1, h2 { color: #2c3e50; }
+        .test { margin-bottom: 30px; padding: 20px; background: #fff; border-radius: 8px; box-shadow: 0 0 10px #ccc; }
+        .test img { max-width: 100%; height: auto; border: 1px solid #ccc; margin-top: 10px; }
+        .status { font-weight: bold; }
+        .status.ok { color: green; }
+        .status.fail { color: red; }
+    </style>
+</head>
+<body>
+    <h1>Reporte de Pruebas Automatizadas - CRUD PHP</h1>
+
+    <div class="test">
+        <h2>Inicio del sistema</h2>
+        <p class="status ok">Estado: Correcto</p>
+        <img src="capturas/01_inicio.png" alt="Inicio del sistema">
+    </div>
+
+    <div class="test">
+        <h2>Creación de Usuario</h2>
+        <p class="status ok">Estado: Usuario creado exitosamente</p>
+        <img src="capturas/02_usuario_creado.png" alt="Usuario creado">
+    </div>
+
+    <div class="test">
+        <h2>Edición de Usuario</h2>
+        <p class="status ok">Estado: Usuario editado exitosamente</p>
+        <img src="capturas/03_usuario_editado.png" alt="Usuario editado">
+    </div>
+
+    <div class="test">
+        <h2>Eliminación de Usuario</h2>
+        <p class="status ok">Estado: Usuario eliminado correctamente</p>
+        <img src="capturas/04_usuario_eliminado.png" alt="Usuario eliminado">
+    </div>
+
+    <div class="test">
+        <h2>Prueba Negativa - Formulario vacío</h2>
+        <p class="status ok">Estado: El sistema impidió el registro</p>
+        <img src="capturas/05_error_formulario_vacio.png" alt="Error por formulario vacío">
+    </div>
+
+    <h2 style="color: green;">Todas las pruebas fueron exitosas.</h2>
+</body>
+</html>
